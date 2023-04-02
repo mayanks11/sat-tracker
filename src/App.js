@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+const cesium = require('cesium');
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+export default function App(){
+  useEffect(() => {
+    var viewer = new cesium.Viewer("cesiumContainer");
+    
+    
+  },[])
+  return(
+    <div className = "cesiumContainer" id = "cesiumContainer">
+
     </div>
-  );
+  )
 }
-
-export default App;
