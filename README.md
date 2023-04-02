@@ -1,1 +1,1 @@
-Satellite tracker using React.js, and Cesium.js. Using tle data from satellites
+Satellite tracker using React.js, and Cesium.js. Using tle data from norad
